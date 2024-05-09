@@ -134,7 +134,7 @@ country_event = {
 		ai_chance = {
 			factor = 95
 			modifier = {
-				factor = 20
+				factor = 0
 				AUH = {
 					has_completed_focus = AUH_ww1_give_italy_territories
 				}
