@@ -72,6 +72,9 @@ country_event = {
 		NOT = {
 			has_global_flag = occupation_of_smyrna
 		}
+        TUR = {
+            owns_state = 339 # Smyrna
+        }        
 	}
 	
 	# GRE Yes
