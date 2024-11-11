@@ -110,10 +110,10 @@ NDiplomacy = {
 	MIN_WARGOAL_JUSTIFY_COST = 2.0,					-- It always takes atleast 10 days to justify a wargoal
 	WARGOAL_PER_JUSTIFY_AND_WAR_COST_FACTOR = 1.5,	-- Cost factor per nation at war with or justifying against
 	WARGOAL_THREAT_MAX_TIME_RATIO = 1.0,			-- Threat from justifying a wargoal slowly builds up, hitting 100% at this proportion of the way to completion
-	BASE_BOOST_PARTY_POPULARITY_DAILY_PP = 6.0, 			-- #HOI4TGW ::: Daily pp cost for boost party popularity
+	BASE_BOOST_PARTY_POPULARITY_DAILY_PP = 5.8, 			-- #HOI4TGW ::: Daily pp cost for boost party popularity
 	BASE_BOOST_PARTY_POPULARITY_DAILY_DRIFT = 0.1, 	-- Daily amount of popularity that will be added by the activity.
-	BASE_STAGE_COUP_DAILY_PP = 6.5,					-- #HOI4TGW ::: Daily pp cost for staging a coup
-	BASE_STAGE_COUP_TOTAL_COST = 820, 				-- #HOI4TGW ::: Equipment consume factor for stage coup.
+	BASE_STAGE_COUP_DAILY_PP = 6.1,					-- #HOI4TGW ::: Daily pp cost for staging a coup
+	BASE_STAGE_COUP_TOTAL_COST = 810, 				-- #HOI4TGW ::: Equipment consume factor for stage coup.
 	NAP_EXPIRY_MONTHS = 48,                         -- NAPs expire after this many months
 	NAP_UNBREAKABLE_MONTHS = 48,                    		-- #HOI4TGW ::: NAPS cannot be broken for this many months
 	NAP_FORCE_BALANCE_RULE_MONTHS = 6,        		-- The NAP border force balance rule changes with this interval
@@ -3137,12 +3137,12 @@ NAI = {
 
 	EQUIPMENT_UPGRADE_VARIANT_MATCH_SCORE_FACTOR = 0.2, -- the weight of equipment upgrade level when computing the match score of a variant to an ai equipment design.
 
-	AI_UPDATE_ROLES_FREQUENCY_HOURS = 64;               -- #HOI4TGW ::: AI_UPDATE_ROLES_FREQUENCY_HOURS = 48 -- Update the roles for a country AI this often (affects performance)
+	AI_UPDATE_ROLES_FREQUENCY_HOURS = 60;               -- #HOI4TGW ::: AI_UPDATE_ROLES_FREQUENCY_HOURS = 48 -- Update the roles for a country AI this often (affects performance)
 
 	UPDATE_SUPPLY_BOTTLENECKS_FREQUENCY_HOURS = 168;     -- Check for and try to fix supply bottlenecks this often. (168 hours = 1 week)
 	FIX_SUPPLY_BOTTLENECK_SATURATION_THRESHOLD = 0.85;  -- Try to fix supply bottlenecks if supply node saturation exceeds this value.
 
-	UPDATE_SUPPLY_MOTORIZATION_FREQUENCY_HOURS = 80;     -- #HOI4TGW ::: UPDATE_SUPPLY_MOTORIZATION_FREQUENCY_HOURS = 52; -- Check if activating motorization would improve supply situation this often.
+	UPDATE_SUPPLY_MOTORIZATION_FREQUENCY_HOURS = 76;     -- #HOI4TGW ::: UPDATE_SUPPLY_MOTORIZATION_FREQUENCY_HOURS = 52; -- Check if activating motorization would improve supply situation this often.
 
 	AI_PREFERRED_TACTIC_WEEKLY_CHANGE_CHANCE = 0.05, 	-- Chance for AI to select a new preferred tactic if they don't have one selected
 
