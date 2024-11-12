@@ -19,6 +19,7 @@ state = {
 			infrastructure=1
 			}
 		1919.1.1 = {
+			owner = BUK
             add_core_of = SOV
         }
 	}
